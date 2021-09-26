@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CartComputerComponent = (props) => {
+const CartComputerComponent = (props) => { 
     console.log('cart item',props)
     const {pictureURL,name} = props.cartItem;
     return (
