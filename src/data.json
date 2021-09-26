@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
+        "model": "Intel Pentium Gold G6400",
+        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
+        "features": [
+            "Socket Supported FCLGA1200",
+            "Speed 4.00 GHz",
+            "Cores- 2 & Threads- 4",
+            "4M Intel Smart Cache"
+        ],
+        "category": "CPU",
+        "brand": "Intel",
+        "price": "5750"
+    },
+    {
+        "id": "2",
+        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
+        "model": "Intel Pentium Gold G6400",
+        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
+        "features": [
+            "Socket Supported FCLGA1200",
+            "Speed 4.00 GHz",
+            "Cores- 2 & Threads- 4",
+            "4M Intel Smart Cache"
+        ],
+        "category": "CPU",
+        "brand": "Intel",
+        "price": "5750"
+    },
+    {
+        "id": "3",
+        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
+        "model": "Intel Pentium Gold G6400",
+        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
+        "features": [
+            "Socket Supported FCLGA1200",
+            "Speed 4.00 GHz",
+            "Cores- 2 & Threads- 4",
+            "4M Intel Smart Cache"
+        ],
+        "category": "CPU",
+        "brand": "Intel",
+        "price": "5750"
+    }
+]
