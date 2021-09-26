@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <h1>Footer Component</h1>
+            <h6 className="text-center py-4">&copy; Copyright 2021 | PC Builder</h6>
         </div>
     );
 };

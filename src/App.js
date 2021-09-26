@@ -6,26 +6,31 @@ import Header from "./Components/Header/Header";
 
 function App() {
   const [computerComponent, setComputerComponent] = useState([]);
+  const [cart, setCart] = useState([]);
   useEffect(() => {
     fetch('./data/data.json')
     .then(response => response.json())
     .then(json => setComputerComponent(json))
   }, []);
-  console.log(computerComponent)
+  const getComputerComponent = (item) => {
+    // console.log(item)
+    const newCart = [...cart, item];
+    setCart(newCart)
+  }
 
   return (
     <div className="container">
       <div className="row">
-        <div className="col-12 bg-light">
+        <div className="col-12 sticky-top bg-light">
           <Header />
         </div>
         <div className="col-8">
-          <ComputerComponent />
+          <ComputerComponent computerComponent={computerComponent} getComputerComponent={getComputerComponent} />
         </div>
-        <div className="col-4 bg-secondary">
-          <Cart/>
+        <div className="col-4 ">
+          <Cart className="position-fixed" cart={cart}/>
         </div>
-        <div className="col-12 bg-light">
+        <div className="col-12">
           <Footer/>
         </div>
       </div>
