@@ -38,7 +38,6 @@ function App() {
       <div className="container">
         <div className="row mt-3">
           <div className="col-md-10">
-            <h6 className="bg-warning rounded p-1 border shadow-sm">Core Components</h6>
               <ComputerComponent
                   computerComponent={computerComponent}
                   getComputerComponent={getComputerComponent}
