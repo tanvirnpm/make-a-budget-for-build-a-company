@@ -5,8 +5,7 @@ const ComputerComponent = (props) => {
     const {computerComponent, getComputerComponent} = props;
     // console.log(computerComponent);
     return (
-        <div>
-            <h6 className="bg-warning rounded p-1 border shadow-sm">Core Components</h6>
+        <div className="row">
             {
                 computerComponent.map(item => <DisplayComputerComponent key={item.id} item={item} getComputerComponent={getComputerComponent}/>)
             }

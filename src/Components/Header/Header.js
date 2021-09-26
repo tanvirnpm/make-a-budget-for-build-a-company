@@ -1,10 +1,12 @@
 import React from 'react';
+import Cart from '../Cart/Cart';
 
-const Header = () => {
+const Header = (props) => {
+    const {totalPrice, cart} = props;
     return (
         <div>
-            <h1 className="text-center">PC Builder</h1>
-            <h4>Total Budget: 45,000৳</h4>
+            <h1 className="text-center">Build Your Company Team Member</h1>
+            <h4>Total Budget: {totalPrice}৳, Total Member: {cart.length}</h4>
         </div>
     );
 };

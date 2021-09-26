@@ -1,47 +1,302 @@
 [
     {
-        "id": "1",
-        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
-        "model": "Intel Pentium Gold G6400",
-        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
-        "features": [
-            "Socket Supported FCLGA1200",
-            "Speed 4.00 GHz",
-            "Cores- 2 & Threads- 4",
-            "4M Intel Smart Cache"
+        "id": 1,
+        "name": "Pok Pickle",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
         ],
-        "category": "CPU",
-        "brand": "Intel",
-        "price": "5750"
+        "salary": 30000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/91.jpg"
     },
     {
-        "id": "2",
-        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
-        "model": "Intel Pentium Gold G6400",
-        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
-        "features": [
-            "Socket Supported FCLGA1200",
-            "Speed 4.00 GHz",
-            "Cores- 2 & Threads- 4",
-            "4M Intel Smart Cache"
+        "id": 2,
+        "name": "Lili Kelty",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
         ],
-        "category": "CPU",
-        "brand": "Intel",
-        "price": "5750"
+        "salary": 45000,
+        "city": "Gazipur",
+        "hobby": "Sketching",
+        "pictureURL": "https://randomuser.me/api/portraits/men/90.jpg"
     },
     {
-        "id": "3",
-        "title": "Intel Pentium Gold G6400 10th gen Coffee Lake Processor",
-        "model": "Intel Pentium Gold G6400",
-        "pictureURL": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/g6400/g6400-500x500.jpg",
-        "features": [
-            "Socket Supported FCLGA1200",
-            "Speed 4.00 GHz",
-            "Cores- 2 & Threads- 4",
-            "4M Intel Smart Cache"
+        "id": 3,
+        "name": "Savannah Stepney",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
         ],
-        "category": "CPU",
-        "brand": "Intel",
-        "price": "5750"
+        "salary": 36000,
+        "city": "Chuwadanga",
+        "hobby": "Playing Cricket",
+        "pictureURL": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Giovanna Sills",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 55000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pasty Sok",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 65000,
+        "city": "Khulna",
+        "hobby": "Gaming",
+        "pictureURL": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Vanetta Ellingsworth",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 70000,
+        "city": "Sylhet",
+        "hobby": "Coding",
+        "pictureURL": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Angelo Vrooman",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 36000,
+        "city": "Netrokona",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sherril Ellerbe",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 37000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lamont Sebesta",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 46000,
+        "city": "Coxbazar",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Claire Ried",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 40000,
+        "city": "Chittogong",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Johna Harms",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 250000,
+        "city": "Jessore",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Caridad Goodwyn",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 300000,
+        "city": "Mymenshing",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Amada Schuster",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 550000,
+        "city": "Netrokona",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/26.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Leann Cutsforth",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 200000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Sung Kyzer",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 150000,
+        "city": "Magora",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/26.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Priscilla Madkins",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 60000,
+        "city": "Rajshahi",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Elden Christofferse",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 220000,
+        "city": "Chittagong",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/30.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Echo Hummer",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 140000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Vicente Spurling",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 120000,
+        "city": "Khulna",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Ai Peyton",
+        "designation": "Software Designer",
+        "expertise": [
+            "React JS",
+            "Mongo DB",
+            "Firebase Auth",
+            "MySQL"
+        ],
+        "salary": 400000,
+        "city": "Dhaka",
+        "hobby": "Traveling",
+        "pictureURL": "https://randomuser.me/api/portraits/men/33.jpg"
     }
 ]

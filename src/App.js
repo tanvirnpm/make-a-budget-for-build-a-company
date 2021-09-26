@@ -8,30 +8,54 @@ function App() {
   const [computerComponent, setComputerComponent] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
-    fetch('./data/data.json')
-    .then(response => response.json())
-    .then(json => setComputerComponent(json))
+    fetch("./data/data.json")
+      .then((response) => response.json())
+      .then((json) => setComputerComponent(json));
   }, []);
   const getComputerComponent = (item) => {
     // console.log(item)
     const newCart = [...cart, item];
-    setCart(newCart)
+    setCart(newCart);
+  };
+
+  let totalPrice = 0;
+  for (const person of cart) {
+    totalPrice = totalPrice + person.salary;
   }
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-12 sticky-top bg-light">
-          <Header />
+    <div>
+      <div className="bg-light sticky-top shadow-sm">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 bg-light">
+              <Header totalPrice={totalPrice} cart={cart} />
+            </div>
+          </div>
         </div>
-        <div className="col-8">
-          <ComputerComponent computerComponent={computerComponent} getComputerComponent={getComputerComponent} />
+      </div>
+
+      <div className="container">
+        <div className="row mt-3">
+          <div className="col-md-10">
+            <h6 className="bg-warning rounded p-1 border shadow-sm">Core Components</h6>
+              <ComputerComponent
+                  computerComponent={computerComponent}
+                  getComputerComponent={getComputerComponent}
+                />
+          </div>
+          <div className="col-md-2">
+            <Cart cart={cart} totalPrice={totalPrice} />
+          </div>
         </div>
-        <div className="col-4 ">
-          <Cart className="position-fixed" cart={cart}/>
-        </div>
-        <div className="col-12">
-          <Footer/>
+      </div>
+      <div className="bg-light">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <Footer />
+            </div>
+          </div>
         </div>
       </div>
     </div>

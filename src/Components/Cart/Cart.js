@@ -1,12 +1,17 @@
 import React from 'react';
+import CartComputerComponent from '../ComputerComponent/CartComputerComponent';
 
 const Cart = (props) => {
-    const {cart} = props;
+    const {cart,  totalPrice} = props;
     console.log(cart)
     return (
         <div className="border rounded">
-            <div className="text-center text-white bg-success py-3"><b>4575৳</b></div>
-            <div className="text-center py-3">{cart.length} items</div>
+            <div className="text-center text-white bg-success py-3"><b>{totalPrice}৳</b></div>
+            <div className="text-center py-3">{cart.length} Members</div>
+            {
+                cart.map(cartItem => <CartComputerComponent cartItem={cartItem} />)
+            }
+            <button className="btn btn-warning mb-3" style={{marginLeft: '30px'}}>Hire Now</button>
         </div>
     );
 };
